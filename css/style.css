@@ -30,6 +30,22 @@ h5{
 	font-size: 16px;
 }
 
+.light{
+    text-shadow: 2px 6px 5px rgba(0,0,0,0.8), 
+                 0px -2px 120px rgba(32,240,25,0.6);
+    color: #25790c;
+}
+
+.dashed{
+    text-decoration: underline;
+}
+
+.page .header .light{
+    text-shadow: 2px 6px 5px rgba(0,0,0,0.8), 
+                 0px -2px 120px rgba(32,240,25,0.6);
+    color: #25790c;
+}
+
 .wrapper{
     background: url(../images/bg.jpg) repeat;
 }
@@ -39,12 +55,22 @@ h5{
     background: url(../images/header.jpg) no-repeat;
 }
 
-.header .caption{
-    margin-bottom: 14px
+.header .phones{
+    margin-top: 46px;
+}
+
+.header .phones .phone{
+    background-color: transparent;
+    border-bottom: 1px solid #353336;
+    border-right: 1px solid #353338;
+    border-top: 1px solid #151318;
+    border-left: 1px solid #151318;
+    box-shadow: 0px 0px 10px #353336;
+    color: #ddd;
 }
 
 .header .list-unstyled li{
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 6px;
 }
 
@@ -63,7 +89,7 @@ span.velcom{
 }
 
 .page .jumbotron h1 {
-    font-size: 36px;
+    font-size: 40px;
     text-shadow: 0px 4px 6px #111;
     color: #888;
     font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
@@ -73,9 +99,35 @@ span.velcom{
     padding-top: 10px;
 }
 
+.well .items-group{
+    margin-top: 32px;
+}
+
+.well .items-group h3{
+    font-size: 32px;
+    background-color: #25790c;
+    height: 70px;
+    padding-top: 14px;
+    padding-left: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    box-shadow: inset 0px -5px 10px -5px rgba(0,0,0,0.5), 
+                inset 0px 5px 10px -5px rgba(0,0,0,0.5);
+    color: #ddd;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.well .items-group li span{
+    color:green; 
+    font-size:12px;
+}
+
+.well .items-group img{
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.6);
+}
+
 .well .caption{
-    padding-top: 2px;
-    padding-bottom: 20px;
+    padding-top: 14px;
     text-align: center;
 }
 
@@ -103,10 +155,11 @@ span.velcom{
     font-size: 18px;
     font-weight: bold;
     padding-left: 30px;
+    margin-top: 20px;
 }
 
 .well ul.enumeration li{
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 .list-group a{
@@ -125,7 +178,6 @@ span.velcom{
 }
 
 .page .footer{
-    height: 160px;
     margin-top: 44px;
     border: none;
 }
